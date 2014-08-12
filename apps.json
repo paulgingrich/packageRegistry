@@ -1,0 +1,56 @@
+{
+	"resource" : [],
+	"standalone" : [],
+	"managed" : [
+		{
+			"filters" : {
+			},
+			"title" : "Device ABC",
+			"desc" : "PPC content for Device family ABC",
+			"image" : "images/device.png",
+			"repos" : [ 
+				{ 
+					"url" : "http://localhost:8000/device_abc.tar.gz",
+					"version" : "1.0.0"
+				}
+			],
+			"ius" : [ {
+					"iu" : "device_abc"
+				}
+			]
+			
+		},
+		{
+			"filters" : {
+			},
+			"title" : "Device XYZ",
+			"desc" : "PPC content for Device family XYZ",
+			"image" : "images/device.png",
+			"repos" : [ {
+					"url" : "http://localhost:8000/device_xyz.tar.gz",
+					"version" : "1.0.0"
+				}
+			],
+			"ius" : [ {
+					"iu" : "device_xyz"
+				}
+			],
+			"dependencies" : [ "common_support" ]
+		}
+	],
+	"shared" : [
+		{
+			"name" : "common_support",
+			"repos" : [ 
+				{ 
+					"url" : "http://localhost:8000/common_support.tar.gz",
+					"version" : "1.0.1"
+				}
+			],
+			"ius" : [ {
+					"iu" : "common_support"
+				}
+			]
+		}
+	]
+}

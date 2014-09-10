@@ -10,7 +10,7 @@
 			"image" : "images/device.png",
 			"repos" : [ 
 				{ 
-					"url" : "https://github.com/paulgingrich/packageRegistry/raw/master/device_123.tar.gz",
+					"url" : "https://github.com/paulgingrich/packageRegistry.git",
 					"version" : "1.0.0"
 				}
 			],

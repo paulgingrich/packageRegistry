@@ -10,7 +10,7 @@
 			"image" : "images/device.png",
 			"repos" : [ 
 				{ 
-					"url" : "https://github.com/paulgingrich/packageRegistry.git",
+					"url" : "git+https://github.com/paulgingrich/packageRegistry.git",
 					"version" : "1.0.0"
 				}
 			],

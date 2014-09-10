@@ -1,0 +1,18 @@
+{
+  "name": "device_123",
+  "version": "1.0.0",
+  "description": "PPC content for 123 family of devices",
+  "main": "device_123.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Texas Instruments"
+  },
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "_id": "device_123@1.0.0",
+  "_shasum": "0a2f68b791e777221b2d8145e952e6f15767d0cd",
+  "_from": "http://software-dl.ti.com/ccs/non-esd/ppc/device_123.tar.gz",
+  "_resolved": "http://software-dl.ti.com/ccs/non-esd/ppc/device_123.tar.gz"
+}
